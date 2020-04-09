@@ -1,14 +1,10 @@
 import React from 'react';
-import Axios from 'axios';
 import { Cards, Chart, CountryPicker } from './components';
 import styles from './App.module.css'
 import { fetchData } from './api';
 import coronaImage from './images/image.png'
 
 class App extends React.Component {
-    constructor(props) {
-        super(props);
-    }
 
     state = {
         data: {},
