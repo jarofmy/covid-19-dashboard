@@ -1,3 +1,7 @@
+## Sidenote
+
+Had to run `heroku buildpacks:set mars/create-react-app` in order to overcome h10 error code deployment on heroku.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
